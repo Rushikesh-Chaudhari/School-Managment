@@ -1,0 +1,16 @@
+<div class="wrapper">
+
+    <div class="block">
+        <form [formGroup]= "dashboard">
+            <h1 style="color: black;">Welcom to School Managment System</h1>
+            <H1>Student Login</H1>
+            <!-- <h1 style="color: black;">Welcom to School Managment System</h1>
+            <H1>LOGIN</H1> -->
+            <input type="text" placeholder="Enter User Name" class="inp" formControlName="SUname"/>
+            <input type="password" placeholder="Enter Password" class="inp" formControlName="Spassword"/>
+            <!-- <input type="text" placeholder="Enter Designation" class="inp" formControlName="occupation"/> -->
+            <div class="btns">
+                <button (click)="goToStudent()" class="log-btn" >Login</button>
+                <!-- <button class="log-btn" (click)= "goToSignup()" >Teacher Login</button> -->
+            </div>
+        </form>
